@@ -17,5 +17,6 @@ This application is part of my Salesforce Integration Crash Course. Checkout my 
 7. Open 'Spoonacular' Apex Class in Developer Console and replace the 'API_KEY' value with your own spoonacular api
 8. Come back to Salesforce Org, and in Application Launcher search for 'Receipe Search'
 
+At Step 4: force:source:deploy will generate a warning that "Warning: force source deploy is not a sf command." You'll need to use the sf command to deploy as sfdx-style command has been deprecated "The sfdx-style commands are deprecated. We removed the reference information for them on June 12, 2024". Instead of that you can use "sf project deploy start -o <orgname>" in here 'TestOrg1'.
 
 Have Fun!! Subscribe to my [youtube channel](https://youtube.com/sfdcfacts) for more!!
